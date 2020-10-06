@@ -32,6 +32,7 @@ public class Main {
 
     }
 
+    //This function is referenced by https://www.w3schools.com/java/java_try_catch.asp
     public static void Trymethod(int x, int y, int width, int height){//other exception handling
         try{
             BetterRectangle obj1 = new BetterRectangle(x, y, width, height);
